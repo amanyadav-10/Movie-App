@@ -4,6 +4,7 @@ import Header from './COMPONENTS/header/header';
 import Home from './page/home/home.js'
 import MovList from './COMPONENTS/movieList/movieList';
 import Card from './COMPONENTS/crad/cards';
+import MovData from './page/home/movieLink/moviedata';
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Header/>
         <Routes>
           <Route index element = {<Home/>}></Route>
-          <Route path="movie/:id" element={<h1>Movie Detail Page</h1>}></Route>
+          <Route path="movie/:id" element={<MovData/>}></Route>
           <Route path="movies/:type" element={<MovList/>}></Route>
           <Route path="/*" element={<h1>Error Page</h1>}></Route>
         </Routes>
