@@ -3,6 +3,8 @@
 
 A mini IMDB clone app in which we can search movies based on moviesdb API, with search suggestions. Clicking on a particular movie card opens a new movie page for further information regarding the movie.
 
+Visit the website here (https://iridescent-crostata-ea2b7d.netlify.app/)
+
 ![Screenshot (222)](https://github.com/amanyadav-10/Movie-App/assets/86738676/2ed3557f-2a1c-4544-b59a-2a2be60bdabf)
 
 We can Checkout for many Options Like Top-Rated, Upcoming and Latest Movies, Now playing.
